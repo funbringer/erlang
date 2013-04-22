@@ -6,6 +6,6 @@ show_last([]) ->
 show_last([A]) ->
 	A;
 show_last([_, Last]) ->
-    Last;
+	Last;
 show_last([_ | Tail]) ->
-    show_last(Tail).
+	show_last(Tail).
